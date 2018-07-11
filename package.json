@@ -1,0 +1,35 @@
+{
+  "name": "dlinklang-page",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/markdownit": "^1.2.1",
+    "@nuxtjs/sitemap": "^0.1.1",
+    "highlight.js": "^9.12.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-attrs": "^2.3.1",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-smartarrows": "^1.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-toc": "^1.1.0",
+    "nuxt": "^1.3.0",
+    "nuxt-property-decorator": "^1.2.0",
+    "vuex-class": "^0.3.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3"
+  }
+}

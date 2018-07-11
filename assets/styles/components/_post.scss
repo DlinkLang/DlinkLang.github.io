@@ -1,0 +1,13 @@
+@import "../themes/themes";
+
+.content {
+  background-color: $background-darken-1;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    max-width: 768px;
+  }
+}
