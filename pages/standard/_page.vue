@@ -9,7 +9,7 @@
 export default {
   async asyncData ({params}) {
     params.page = params.page || 'index';
-    const fileContent = await import(`~/_posts/standard/${params.page}.md`)
+    const fileContent = await import(`~/_posts/standards/${params.page}.md`)
     return {
       content: fileContent
     }
