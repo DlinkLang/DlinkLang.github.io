@@ -6,7 +6,7 @@ cache:
   - node_modules
 branches:
   only:
-  - dev
+  - develop
 install:
 - npm install
 - npm run generate
@@ -18,4 +18,4 @@ deploy:
   target-branch: master
   local-dir: dist
   on:
-    branch: dev
+    branch: develop
