@@ -5,7 +5,7 @@ const hljs = require("highlight.js");
 const cssPlugin = require("./markdown-it/css-plugin");
 const utils = require("markdown-it/lib/common/utils");
 const standards = fs
-  .readdirSync("./_posts/standard")
+  .readdirSync("./_posts/standards")
   .filter(it => it.endsWith(".md"))
   .map(it => `standard/${it.substr(0, it.lastIndexOf("."))}`);
 const posts = standards; // 표준 이외의 문서 추가 가능성
